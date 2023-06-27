@@ -1,5 +1,5 @@
 org: chibueze
-# TODO: Change the name of the org 
+
 app: serverless-app
 service: serverless-app
 
@@ -20,8 +20,7 @@ provider:
     lambda: true
     apiGateway: true
 
-  # Use these variables in the functions and resouorces section below. For example, 
-  # ${self:provider.environment.ATTACHMENT_S3_BUCKET}
+
   environment:
     PROJECT_NAME: app-serveless
     TODOS_TABLE: app-serverless-${self:provider.stage}
@@ -71,7 +70,7 @@ functions:
   Auth:
     handler: src/lambda/auth/auth0Authorizer.handler
 
-  # TODO: Configure this function - 
+
   # Provide iamRoleStatements property for performing Actions on DynamoDB
   GetTodos:
     handler: src/lambda/http/getTodos.handler
@@ -171,7 +170,6 @@ functions:
         Resource: 
           - '*'
 
-  # TODO: Configure this function
   # Provide property for setting up CORS, Authorizer, iamRoleStatements
 
   GenerateUploadUrl:
