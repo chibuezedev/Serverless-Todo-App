@@ -47,15 +47,6 @@ To deploy and run this serverless application, follow these steps:
 
 5. Once the deployment is complete, you will receive an API endpoint URL. You can use this URL to interact with the application.
 
-## Usage
-
-The serverless application provides the following functionalities:
-
-1. **Endpoint 1**: This endpoint allows you to perform action 1. Usage: `HTTP_METHOD /api/endpoint-1`.
-
-2. **Endpoint 2**: This endpoint allows you to perform action 2. Usage: `HTTP_METHOD /api/endpoint-2`.
-
-3. **Endpoint 3**: This endpoint allows you to perform action 3. Usage: `HTTP_METHOD /api/endpoint-3`.
 
 Feel free to explore and customize the application according to your needs.
 
